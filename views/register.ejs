@@ -1,0 +1,38 @@
+<%- include('./header.ejs', {title: "Login page"}) %>
+    <div class="row">
+            <div class="container">
+                <form action="/register/register" method="post" class="register-form col s8 m8 l8">
+                    <div class="input-field col s6 m6 l6">
+                        <input id="login" type="text" name="login" required>
+                        <label for="login">Login</label>
+                    </div>
+                    <div class="input-field col s6 m6 l6">
+                        <input id="name" type="text" name="name" required>
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="input-field col s6 m6 l6">
+                        <input class="validate" id="email" type="email" required>
+                        <label for="email" data-error="wrong" data-success="ok">Email</label>
+                    </div>
+                    <div class="input-field col s6 m6 l6">
+                        <input id="password" type="password" name="password" required>
+                        <label for="password">Password</label>
+                    </div>
+                    <div class="input-field col s6 m6 l6">
+                        <input id="confirm" type="password" name="confirm" required>
+                        <label for="confirm">Confirm Password</label>
+                    </div>
+                    <div>
+                        <input class="btn waves-effect waves-light" type="submit" value="Register">
+                    </div>
+                
+                </form>
+            </div>
+        
+ </div> 
+<%- include('./footer.ejs') %>
+
+
+
+
+                    

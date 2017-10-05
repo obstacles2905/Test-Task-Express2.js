@@ -1,0 +1,101 @@
+.menu {
+    position: relative;
+    height: 300px;
+}
+.user_data {
+    position: absolute; 
+    left: 50px; 
+    top: 200px; 
+    background-color:pink;
+    width: 170px;
+}
+.start {
+   position: absolute;
+   margin: 0px auto;
+   top: 63%;
+   left: 24%;
+}
+.new {
+    position: absolute;
+    margin: 0px auto;
+    top: 63%;
+    left: 5%;
+}
+.pause {
+    position: absolute;
+    margin: 0px auto;
+    top: 63%;
+    left: 40%;
+}
+.game {
+    height: 500px;  
+}
+.result {
+    height: 400px;
+    width: 200px;
+    position: relative;
+    margin-top: -25%;
+    left: 1000px;      
+}
+.field {
+    position: relative;
+    margin-top: 20px;
+    height: 450px;
+}
+
+.field > div {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    
+}
+/*labels*/
+#total_score {
+    position: absolute;
+    margin: 0px auto;
+    top: 70%;
+    left: 82%;
+}
+#timer {
+    position: absolute;
+    margin: 0px auto;
+    top: 70%;
+    left: 65%;
+/*    top: 200px auto;*/
+}
+#points {
+    position: absolute;
+    margin: 0px auto;
+    top: 60%;
+    left: 65%;
+}
+#timeleft {
+    position: absolute;
+    margin: 0px auto;
+    top: 60%;
+    left: 80%;
+}
+h1 {
+    position: absolute;
+    margin: 0px auto;
+    top: 5%;
+}
+#result {
+
+    background-color: #ffcdd2;
+    position: absolute;
+    top: 1%;
+    right: 12%;
+    height: 800px;
+    width: 300px;
+    
+}
+#score {
+    border: 2px double black;
+    padding: 7px;
+    font-size: 16px;
+}
+#scoreboard {
+    font-size: 20px;
+    text-align: center;
+}

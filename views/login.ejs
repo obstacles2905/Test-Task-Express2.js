@@ -1,0 +1,23 @@
+<%- include('./header.ejs', {title: "Login page"}) %>
+<div class="container">
+    
+    <div class="row">
+        <div class="col s12 m12 l12">
+                <form style="position: absolute; top: 30%;" action="/auth/login" method="post" class="register-form col s8 m8 l8">
+                    <div class="input-field col s6 m6 l6">
+                        <input id="login" type="text" name="login" required>
+                        <label for="login">Login</label>
+                    </div>
+                    <div class="input-field col s6 m6 l6">
+                        <input id="password" type="password" name="password" required>
+                        <label for="password">Password</label>
+                    </div>
+                    <div>
+                        <input class="btn waves-effect waves-light" type="submit" value="Log In">
+                        <a class="btn waves-effect waves-light" href="/register">Register</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+ </div> 
+<%- include('./footer.ejs') %>
